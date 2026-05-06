@@ -39,16 +39,29 @@ aunque me muevo cómodo en todo el stack.</p>
 
 ---
 
-## 🚀 Qué construí en producción
-- **Sistema de notificaciones event-driven** — Node.js + EventBus + Twilio Webhooks transmitiendo conversaciones de WhatsApp en tiempo real via SSE hacia un dashboard React
-- **Motor logístico híbrido** — Plugin en MedusaJS integrando APIs SOAP/XML legacy y REST con enrutamiento dinámico para logística de última milla
-- **Dashboard administrativo** — React con paginación infinita, bulk actions, impresión de etiquetas PDF/ZPL y exportación a Excel
-- **Motor analítico optimizado** — Migración de queries N+1 bloqueantes a caché en memoria con hashing predictivo, reduciendo latencias de +15s a <50ms
-- **Gestión de envíos y garantías** — Módulo completo para seguimiento de compras, Warranty claims, y coordinación de turnos de taller post-venta
-- **Sistema de fichajes y horarios** — Registro de horas de empleados, horarios individuales, y gestión de asistencia con notificaciones automatizadas
-- **Dashboard de analytics** — Métricas en tiempo real con filtros por fecha y zona horaria
-- **Gestión de tareas** — Tasklist colaborativo con asignaciones, estados y seguimiento de progreso
-Tech: Node.js, React, TypeScript, PostgreSQL, Redis, MedusaJS, SSE, EventBus, Docker
+---
+Para portfolio/CV:
+## 🚀 Sistemas que construí en producción
+**Logística y Envíos:**
+- Integración multi-transportista (GLS, GTS, OnTime, FedEx)
+- Generación de labels PDF/ZPL, tracking, validación por país
+**WhatsApp y Chat (AI):**
+- Chatbot con OpenAI + Twilio Webhooks
+- Chat-history con analytics de conversaciones y performance de agentes
+- Notificaciones real-time via SSE
+**Gestión de Turnos y Citas:**
+- Appointments para taller post-venta
+- Schedule de empleados con requests y approve/reject
+**Tareas y Fichajes:**
+- Tasklist: asignación, estados, tracking de tiempo por tarea
+- Time-entry: clock-in/out, pausas, auditoría, compliance, export PDF/Excel
+**Garantías y Post-venta:**
+- CRUD completo con estados, attachments, asignaciones
+**Analytics:**
+- Motor analítico con caché in-memory (latencias: 15s → <50ms)
+**Fiscal:**
+- Sistema de taxes para Canarias (España)
+Tech: Node.js, TypeScript, PostgreSQL, Redis, MedusaJS, OpenAI API, SSE, EventBus, Docker
 ---
 <div align="center">
 
