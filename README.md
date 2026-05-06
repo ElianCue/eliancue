@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hola, soy Elian 👋
+<h1>Hola, soy Elian 👋</h1>
 
 <p>Desarrollador Full Stack con experiencia en producción.<br>
 Me especializo en backend con Node.js y arquitecturas event-driven,<br>
@@ -39,34 +39,41 @@ aunque me muevo cómodo en todo el stack.</p>
 
 ---
 
----
-Para portfolio/CV:
 ## 🚀 Sistemas que construí en producción
-**Logística y Envíos:**
+
+**Logística y Envíos**
 - Integración multi-transportista (GLS, GTS, OnTime, FedEx)
 - Generación de labels PDF/ZPL, tracking, validación por país
-**WhatsApp y Chat (AI):**
+
+**WhatsApp y Chat con IA**
 - Chatbot con OpenAI + Twilio Webhooks
 - Chat-history con analytics de conversaciones y performance de agentes
 - Notificaciones real-time via SSE
-**Gestión de Turnos y Citas:**
+
+**Gestión de Turnos y Citas**
 - Appointments para taller post-venta
 - Schedule de empleados con requests y approve/reject
-**Tareas y Fichajes:**
+
+**Tareas y Fichajes**
 - Tasklist: asignación, estados, tracking de tiempo por tarea
 - Time-entry: clock-in/out, pausas, auditoría, compliance, export PDF/Excel
-**Garantías y Post-venta:**
+
+**Garantías y Post-venta**
 - CRUD completo con estados, attachments, asignaciones
-**Analytics:**
+
+**Analytics**
 - Motor analítico con caché in-memory (latencias: 15s → <50ms)
-**Fiscal:**
+
+**Fiscal**
 - Sistema de taxes para Canarias (España)
-Tech: Node.js, TypeScript, PostgreSQL, Redis, MedusaJS, OpenAI API, SSE, EventBus, Docker
+
+`Node.js` `TypeScript` `PostgreSQL` `Redis` `MedusaJS` `OpenAI API` `SSE` `EventBus` `Docker`
+
 ---
+
 <div align="center">
 
-## 📫 Contacto
-
-¿Tenés un proyecto o posición remota? Escribime a **eliancuevac@gmail.com**
+<h3>📫 ¿Tenés un proyecto o posición remota?</h3>
+<p>Escribime a <strong>eliancuevac@gmail.com</strong></p>
 
 </div>
